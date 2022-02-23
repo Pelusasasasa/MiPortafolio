@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: wheat;
+}
+@media (max-width: 458px) {
+    header{
+        flex-direction: column;
+    }
+
+    p{
+        display: inline;
+    }
+}
+
+header:before{
+    content:"";
+    background-image: url(./code-programmers-programming-programming-language-javascript-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85;
+}
+header .titles h2{
+    margin: 0;
+}
+header .titles{
+    font-family: sans-serif;
+    padding: 1rem;
+    color: wheat;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255,255,255,0.1)
+}
+
+header img{
+    /* width: 100px; */
+    clip-path: circle(50%);
+}
+
+ .transition{
+    transition: opacity 2s;
+    opacity: 1 ;
+} 
