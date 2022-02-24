@@ -60,7 +60,7 @@ main{
 }
 
 .redes img{
-    width: 50px;
+    width: 80px;
     padding: 1rem;
     filter: grayscale(100%);
     transition: filter 1.2s;
