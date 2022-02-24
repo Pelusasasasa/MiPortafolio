@@ -1,10 +1,7 @@
 .contact-section{
+    min-height: 80vh;
     display: flex;
     justify-content: space-evenly;
-    background-image: url(code-programmers-programming-programming-language-javascript-hd-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 form{

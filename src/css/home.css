@@ -1,3 +1,10 @@
+.fondo{
+    background-image: url(./code-programmers-programming-programming-language-javascript-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 header{
     width: 100%;
     height: 70vh;
@@ -14,20 +21,6 @@ header{
     p{
         display: inline;
     }
-}
-
-header:before{
-    content:"";
-    background-image: url(./code-programmers-programming-programming-language-javascript-hd-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: cover;
-    background-position: center center;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.85;
 }
 header .titles h2{
     margin: 0;

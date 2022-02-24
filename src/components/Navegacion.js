@@ -16,17 +16,17 @@ const Navegacion = () => {
         </div>
 
         <nav className="nav ">
-                <NavLink to="About">Proyectos</NavLink>
-                <NavLink to="Projects">Habilidades</NavLink>
-                <NavLink to="Contact">Contacto</NavLink>
+                <NavLink to="About">About</NavLink>
+                <NavLink to="Projects">Projects</NavLink>
+                <NavLink to="Contact">Contact</NavLink>
                 
         </nav>
         <div className="nav-resposivo">
         <img src="./img/download.webp" alt="" onClick={desplegarMenu} />
         <div className="despliegue none">
-            <NavLink to="About">Proyectos</NavLink>
-            <NavLink to="Projects">Habilidades</NavLink>
-            <NavLink to="Contact">Contacto</NavLink>
+            <NavLink to="About">About</NavLink>
+            <NavLink to="Projects">Projects</NavLink>
+            <NavLink to="Contact">Contact</NavLink>
         </div>
         </div>
     </div>

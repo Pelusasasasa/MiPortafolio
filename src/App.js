@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 
 function App() {
   return (
-    <div style={{margin:"0 auto"}}>
+    <div className='fondo' style={{margin:"0 auto"}}>
 
       <NavBar />
       <Footer />
